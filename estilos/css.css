@@ -1,0 +1,139 @@
+  body {
+  background-image: url("../imagenes/fondo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Andika New Basic', sans-serif;
+  color: white;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+#principal{
+  height: 1250px;
+  width: 50%;
+  margin: 0 auto;
+}
+
+header{
+  height: 60px;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+nav{
+  background: #333;
+  justify-content: center;
+  text-align: center;
+  border-radius: 25px;
+  opacity: 0.9;
+  
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  opacity: 1;
+}
+
+li {
+  display: inline-block;
+  opacity: 1;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  opacity: 1;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+#primero{
+  margin: auto;
+}
+
+section{
+  margin-top: 30px;
+  height: 1000px;
+  border-radius: 25px;
+  background: #2C3021;
+  opacity: 0.9;
+  padding: 10px 25px 20px 40px;
+}
+
+.tamanioImg{
+  height: 270px;
+  width: 270px;
+  margin: 20px;
+}
+
+#imagenInicial{
+  height: 310px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+p{
+  line-height : 22px;
+}
+
+#plataformas{
+  float: right;
+  margin-top: 5%;
+}
+
+.categoriasDiv{
+    height: 350px;
+    line-height: 1000px;
+    border: 2px dashed #f69c55;
+    position: relative;
+}
+
+.categoriasDiv p{
+  padding-top: 5%;
+  padding-right: 5%;
+  padding-left: 5%;
+  text-align: justify;
+}
+
+#deportes{
+  float: left;
+  margin-top: 5%;
+}
+
+table{
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  min-width: 400px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  width: 99%;
+  margin-top: 50px;
+}
+
+.styled-table thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+}
+
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+}
+
+.styled-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
